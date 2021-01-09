@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>HASH Curve</name>
+  <id>org.inkscape.hash.curve</id>
+  
+  <effect>
+    <object-type>all</object-type>
+    <effects-menu>
+      <submenu _name="HA Steam House"/>
+    </effects-menu>
+  </effect>
+  
+  <script>
+    <command location="inx" interpreter="python">hash_curve.py</command>
+  </script>
+</inkscape-extension>
